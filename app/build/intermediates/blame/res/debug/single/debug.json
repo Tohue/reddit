@@ -8,12 +8,12 @@
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/layout/design_navigation_item.xml"
-    },
-    {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/layout/design_navigation_item.xml"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
@@ -116,12 +116,12 @@
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher_background.png.flat",
         "source": "/home/tohue/AndroidStudioProjects/reddit/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat",
@@ -156,12 +156,12 @@
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/layout/design_text_input_password_icon.xml"
-    },
-    {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/layout/design_text_input_password_icon.xml"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -184,12 +184,12 @@
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/home/tohue/AndroidStudioProjects/reddit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
-    },
-    {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "/home/tohue/AndroidStudioProjects/reddit/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -200,12 +200,12 @@
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
-    },
-    {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
@@ -244,20 +244,20 @@
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/interpolator/mtrl_linear.xml"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/tohue/AndroidStudioProjects/reddit/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/layout_activity_scrolling.xml.flat",
-        "source": "/home/tohue/AndroidStudioProjects/reddit/app/src/main/res/layout/activity_scrolling.xml"
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/tohue/AndroidStudioProjects/reddit/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/layout_activity_scrolling.xml.flat",
+        "source": "/home/tohue/AndroidStudioProjects/reddit/app/src/main/res/layout/activity_scrolling.xml"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -392,12 +392,12 @@
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/color_mtrl_fab_ripple_color.xml.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/color/mtrl_fab_ripple_color.xml"
-    },
-    {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/color_mtrl_fab_ripple_color.xml.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/color/mtrl_fab_ripple_color.xml"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background.xml.flat",
@@ -460,24 +460,24 @@
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/drawable/design_snackbar_background.xml"
-    },
-    {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/color-v23_abc_tint_switch_track.xml.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable_design_snackbar_background.xml.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/res/drawable/design_snackbar_background.xml"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -516,20 +516,20 @@
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat",
-        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/res/layout/notification_template_icon_group.xml"
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat",
+        "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/drawable/abc_text_cursor_material.xml"
     },
     {
         "merged": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/res/merged/debug/layout-v26_abc_screen_toolbar.xml.flat",

@@ -47,7 +47,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.PostViewHolder> {
     @Override
     public void onBindViewHolder(PostViewHolder holder, int i) {
         holder.text.setText(posts.get(i).getTitle());
-        Picasso.get().load(posts.get(i).getImage()).into(holder.img);
+        Picasso.get().load(posts.get(i).getImage()).into(holder.img );
     }
 
     @Override

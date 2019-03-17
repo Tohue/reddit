@@ -1,4 +1,4 @@
-#Sun Mar 17 19:00:15 MSK 2019
+#Sun Mar 17 22:27:15 MSK 2019
 base.0=/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

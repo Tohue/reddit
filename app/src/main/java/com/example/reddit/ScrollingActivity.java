@@ -9,8 +9,25 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import net.dean.jraw.RedditClient;
+import net.dean.jraw.http.NetworkAdapter;
+import net.dean.jraw.http.OkHttpNetworkAdapter;
+import net.dean.jraw.http.UserAgent;
+import net.dean.jraw.models.Listing;
+import net.dean.jraw.models.Submission;
+import net.dean.jraw.models.Subreddit;
+import net.dean.jraw.models.SubredditSort;
+import net.dean.jraw.models.TimePeriod;
+import net.dean.jraw.oauth.Credentials;
+import net.dean.jraw.oauth.OAuthException;
+import net.dean.jraw.oauth.OAuthHelper;
+import net.dean.jraw.oauth.StatefulAuthHelper;
+import net.dean.jraw.pagination.DefaultPaginator;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 
 public class ScrollingActivity extends AppCompatActivity {
@@ -20,6 +37,39 @@ public class ScrollingActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        final List<Post> posts = new ArrayList<>();
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try  {
+                    Credentials ou = Credentials.userlessApp("s6pjSsc3TuGToA", UUID.randomUUID());
+                    UserAgent userAgent = new UserAgent("userless_app", "com.example.reddit", "v0.1", "monodll");
+                    NetworkAdapter adapter = new OkHttpNetworkAdapter(userAgent);
+                    RedditClient reddit = OAuthHelper.automatic(adapter, ou);
+                    DefaultPaginator<Submission> frontPage = reddit.frontPage()
+                            .sorting(SubredditSort.TOP)
+                            .timePeriod(TimePeriod.DAY)
+                            .limit(30)
+                            .build();
+                    Listing<Submission> submissions = frontPage.next();
+                    for (Submission s : submissions) {
+                        System.out.println(s.getTitle());
+                        posts.add(new Post(s.getTitle(), s.getSelfText(), s.getUrl()));
+                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        try {
+            thread.start();
+            thread.join();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+        }
+
         setContentView(R.layout.activity_scrolling);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -53,12 +103,10 @@ public class ScrollingActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         view.setLayoutManager(layoutManager);
 
-        List<Post> posts = new ArrayList<>();
-        posts.add(new Post("qwe", "qwe", "https://i.redd.it/0gpn6a8kpnm21.png"));
-        posts.add(new Post("nomer2", "qwe", "https://pp.userapi.com/c839/u103489074/a_107f9a73.jpg"));
 
         mAdapter = new MyAdapter(posts);
         view.setAdapter(mAdapter);
+
     }
 
     @Override
