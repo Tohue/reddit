@@ -1,0 +1,191 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/tohue/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b55ff41145cba59dd361394ceb303fa7/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/abd22add343dc9913bd84fe7681387fb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2ae7c64299c35077c1992bf6e60516b7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/e99cb9cf144d27166e2de9acc4932e06/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8e4beda26fcc2f3652f6cbb757d7792b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0a498d391092eb406a104dffd3effd06/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/daf1b94c27e24623ebc3456ba156ec7b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/87b99df3fb8bf1109485b1c8763797ce/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b5d6566ecf870a386f3004e083533d1a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/4a1e3c2e5c34d9e211d29e0549f6427f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d09be4b6d0874bca96d35f028a2e786f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/e5c0aca2c31f1b93475f395948a955e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a5a551d3100359d1a607a7acf6362bb8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e61f9a05fa32660210907f0bc66bc437/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/1d425a5d7c3e5e97fe08dec2e053829e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4789624ce79770d749b7483d432cc987/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1f331655cc72f3963334321eb9b9c327/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d7e449626aa3e0e5e9720e3d788f2a51/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e39583acbe73a40155aff04f0e614844/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d8e865199a3d8aa3cf7295255ea1fcad/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/99eec7b3425400cb0b2dba3e09814534/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9d59999a06a2cbaaf6f1a13541f84512/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ff66252d0dd71e7543044532526cf5aa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/da82151dd7adfd1c136eb61c4129ec4f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/94c879a9d8d77e734b97656748b5a763/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bdd3eb399dc4c9f42cda89a15cbf7c62/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/6a4cbfedadd38daa3d54534f8edb76ea/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/980a89131dcaa4cb4f0059475b6d3b13/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5e3fe14d9c467586a37ffd8515815fd8/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/tohue/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b55ff41145cba59dd361394ceb303fa7/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/tohue/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b55ff41145cba59dd361394ceb303fa7/AndroidManifest.xml:7:5-12:19
+MERGED from [com.android.support:design:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e39583acbe73a40155aff04f0e614844/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e39583acbe73a40155aff04f0e614844/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.reddit.ScrollingActivity
+ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:14:9-23:20
+	android:label
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:16:13-45
+	android:theme
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:15:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/tohue/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b55ff41145cba59dd361394ceb303fa7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/tohue/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b55ff41145cba59dd361394ceb303fa7/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:design:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/1dc73ae072cfc0f107efd33fd18d43e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/abd22add343dc9913bd84fe7681387fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/abd22add343dc9913bd84fe7681387fb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2ae7c64299c35077c1992bf6e60516b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/2ae7c64299c35077c1992bf6e60516b7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/e99cb9cf144d27166e2de9acc4932e06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/exifinterface-27.1.0.aar/e99cb9cf144d27166e2de9acc4932e06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8e4beda26fcc2f3652f6cbb757d7792b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/8e4beda26fcc2f3652f6cbb757d7792b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0a498d391092eb406a104dffd3effd06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/0a498d391092eb406a104dffd3effd06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/daf1b94c27e24623ebc3456ba156ec7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/daf1b94c27e24623ebc3456ba156ec7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/87b99df3fb8bf1109485b1c8763797ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/87b99df3fb8bf1109485b1c8763797ce/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b5d6566ecf870a386f3004e083533d1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/b5d6566ecf870a386f3004e083533d1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/4a1e3c2e5c34d9e211d29e0549f6427f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/4a1e3c2e5c34d9e211d29e0549f6427f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d09be4b6d0874bca96d35f028a2e786f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d09be4b6d0874bca96d35f028a2e786f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/e5c0aca2c31f1b93475f395948a955e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/e5c0aca2c31f1b93475f395948a955e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a5a551d3100359d1a607a7acf6362bb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/a5a551d3100359d1a607a7acf6362bb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e61f9a05fa32660210907f0bc66bc437/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e61f9a05fa32660210907f0bc66bc437/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/1d425a5d7c3e5e97fe08dec2e053829e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/1d425a5d7c3e5e97fe08dec2e053829e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4789624ce79770d749b7483d432cc987/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4789624ce79770d749b7483d432cc987/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1f331655cc72f3963334321eb9b9c327/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1f331655cc72f3963334321eb9b9c327/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d7e449626aa3e0e5e9720e3d788f2a51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/d7e449626aa3e0e5e9720e3d788f2a51/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e39583acbe73a40155aff04f0e614844/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/e39583acbe73a40155aff04f0e614844/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d8e865199a3d8aa3cf7295255ea1fcad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d8e865199a3d8aa3cf7295255ea1fcad/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/99eec7b3425400cb0b2dba3e09814534/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/99eec7b3425400cb0b2dba3e09814534/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9d59999a06a2cbaaf6f1a13541f84512/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/9d59999a06a2cbaaf6f1a13541f84512/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ff66252d0dd71e7543044532526cf5aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/ff66252d0dd71e7543044532526cf5aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/da82151dd7adfd1c136eb61c4129ec4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/da82151dd7adfd1c136eb61c4129ec4f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/94c879a9d8d77e734b97656748b5a763/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/94c879a9d8d77e734b97656748b5a763/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bdd3eb399dc4c9f42cda89a15cbf7c62/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/tohue/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/bdd3eb399dc4c9f42cda89a15cbf7c62/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/6a4cbfedadd38daa3d54534f8edb76ea/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/6a4cbfedadd38daa3d54534f8edb76ea/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/980a89131dcaa4cb4f0059475b6d3b13/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/980a89131dcaa4cb4f0059475b6d3b13/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5e3fe14d9c467586a37ffd8515815fd8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/tohue/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/5e3fe14d9c467586a37ffd8515815fd8/AndroidManifest.xml:20:5-44
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+		ADDED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tohue/AndroidStudioProjects/reddit/app/src/main/AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/tohue/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b55ff41145cba59dd361394ceb303fa7/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/tohue/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b55ff41145cba59dd361394ceb303fa7/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/tohue/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b55ff41145cba59dd361394ceb303fa7/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/tohue/.gradle/caches/transforms-1/files-1.1/picasso-2.71828.aar/b55ff41145cba59dd361394ceb303fa7/AndroidManifest.xml:9:13-64
