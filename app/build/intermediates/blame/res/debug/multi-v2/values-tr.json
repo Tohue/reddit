@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
+            "outputFile": "/home/cherenkov/StudioProjects/reddit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml",
             "map": [
                 {
-                    "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/values-tr/values-tr.xml",
+                    "source": "/home/cherenkov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fabbae1dcf71e68f8eacc3ed4dfbee68/res/values-tr/values-tr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/30fcb5b767eef1b1d03a6f9590036758/res/values-tr/values-tr.xml",
+                    "source": "/home/cherenkov/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/7086a6c01a39adcfec7cad03238dfbcc/res/values-tr/values-tr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/cherenkov/StudioProjects/reddit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/values-night-v8/values-night-v8.xml",
+                    "source": "/home/cherenkov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fabbae1dcf71e68f8eacc3ed4dfbee68/res/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

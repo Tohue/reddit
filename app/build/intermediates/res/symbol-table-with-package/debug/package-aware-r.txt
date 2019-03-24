@@ -1005,7 +1005,9 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id card_author
 id card_photo
+id card_subreddit
 id card_text
 id card_view
 id center

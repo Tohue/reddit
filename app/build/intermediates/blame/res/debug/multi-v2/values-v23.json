@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tohue/AndroidStudioProjects/reddit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/cherenkov/StudioProjects/reddit/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/abd22add343dc9913bd84fe7681387fb/res/values-v23/values-v23.xml",
+                    "source": "/home/cherenkov/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/486394002ec80a031a3828400fa9ebd4/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/tohue/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/359ca7e018d2dc12701de61588b81c92/res/values-v23/values-v23.xml",
+                    "source": "/home/cherenkov/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/fabbae1dcf71e68f8eacc3ed4dfbee68/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

@@ -21,12 +21,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.PostViewHolder> {
     public static class PostViewHolder extends RecyclerView.ViewHolder {
         CardView cv;
         TextView text;
+        TextView sub;
+        TextView auth;
         ImageView img;
         PostViewHolder(View itemView) {
             super(itemView);
             cv = (CardView)itemView.findViewById(R.id.card_view);
             text = (TextView)itemView.findViewById(R.id.card_text);
             img = (ImageView)itemView.findViewById(R.id.card_photo);
+            sub = (TextView)itemView.findViewById(R.id.card_subreddit);
+            auth = (TextView)itemView.findViewById(R.id.card_author);
         }
     }
 
@@ -47,7 +51,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.PostViewHolder> {
     @Override
     public void onBindViewHolder(PostViewHolder holder, int i) {
         holder.text.setText(posts.get(i).getTitle());
-        Picasso.get().load(posts.get(i).getImage()).into(holder.img );
+        holder.sub.setText(posts.get(i).getSub());
+        holder.auth.setText(posts.get(i).getAuthor());
+        Picasso
+                .get()
+                .load(posts.get(i).getImage())
+                .resize(600, 600)
+                .centerInside()
+                .into(holder.img );
     }
 
     @Override

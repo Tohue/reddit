@@ -24,6 +24,7 @@ import net.dean.jraw.oauth.OAuthException;
 import net.dean.jraw.oauth.OAuthHelper;
 import net.dean.jraw.oauth.StatefulAuthHelper;
 import net.dean.jraw.pagination.DefaultPaginator;
+import net.dean.jraw.references.SubredditReference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,11 +35,8 @@ public class ScrollingActivity extends AppCompatActivity {
     private RecyclerView view;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
 
-        final List<Post> posts = new ArrayList<>();
+    private List<Post> getPosts(final List<Post> posts, final String subreddits[]) {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -47,16 +45,21 @@ public class ScrollingActivity extends AppCompatActivity {
                     UserAgent userAgent = new UserAgent("userless_app", "com.example.reddit", "v0.1", "monodll");
                     NetworkAdapter adapter = new OkHttpNetworkAdapter(userAgent);
                     RedditClient reddit = OAuthHelper.automatic(adapter, ou);
-                    DefaultPaginator<Submission> frontPage = reddit.frontPage()
+                    SubredditReference subs = reddit.subreddits(subreddits[0], subreddits[1], subreddits[2], subreddits[3], subreddits[4]);
+                    DefaultPaginator<Submission> list = subs.posts()
                             .sorting(SubredditSort.TOP)
                             .timePeriod(TimePeriod.DAY)
-                            .limit(30)
+                            .limit(50)
                             .build();
-                    Listing<Submission> submissions = frontPage.next();
+                    Listing<Submission> submissions = list.next();
                     for (Submission s : submissions) {
-                        System.out.println(s.getTitle());
-                        posts.add(new Post(s.getTitle(), s.getSelfText(), s.getUrl()));
+                        System.out.println(s.getPostHint());
+                        if (s.getPostHint().equals("image")) {
+                            posts.add(new Post(s.getTitle(), s.getSelfText(), s.getUrl(), s.getSubreddit(), s.getAuthor()));
+                        }
+
                     }
+
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -69,40 +72,58 @@ public class ScrollingActivity extends AppCompatActivity {
         catch (Exception e) {
             e.printStackTrace();
         }
+        return posts;
+    }
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        final List<Post> posts = new ArrayList<>();
+
 
         setContentView(R.layout.activity_scrolling);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("Reddit");
         setSupportActionBar(toolbar);
 
+        final String memeSubs[] = {"okbuddyretard", "comedyheaven", "deepfriedmemes", "funny", "dankmemes"};
+        final String picSubs[] = {"pics", "oldschoolcool", "crappydesign", "nocontextpics", "earthporn"};
+        final String awwSubs[] = {"aww", "rarepuppers", "cattaps", "thecatdimension", "AnimalPics"};
+        view = (RecyclerView) findViewById(R.id.rec);
+        layoutManager = new LinearLayoutManager(this);
+        view.setLayoutManager(layoutManager);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Tut budut memes", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View vieww) {
+                posts.clear();
+                getPosts(posts, memeSubs);
+                mAdapter = new MyAdapter(posts);
+                view.setAdapter(mAdapter);
             }
         });
         FloatingActionButton fab1 = (FloatingActionButton) findViewById(R.id.fab1);
         fab1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Tut budut news", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View vieww) {
+                posts.clear();
+                getPosts(posts, picSubs);
+                mAdapter = new MyAdapter(posts);
+                view.setAdapter(mAdapter);
             }
         });
         FloatingActionButton fab2 = (FloatingActionButton) findViewById(R.id.fab2);
         fab2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Tut budut kits and pups", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View vieww) {
+                posts.clear();
+                getPosts(posts, awwSubs);
+                mAdapter = new MyAdapter(posts);
+                view.setAdapter(mAdapter);
             }
         });
-
-        view = (RecyclerView) findViewById(R.id.rec);
-        layoutManager = new LinearLayoutManager(this);
-        view.setLayoutManager(layoutManager);
-
 
         mAdapter = new MyAdapter(posts);
         view.setAdapter(mAdapter);
